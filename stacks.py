@@ -1,3 +1,4 @@
+# The given code is pythonic implementation of Stack.
 class Stack:
     def __init__(self,capacity):
         self.capacity=capacity
@@ -31,4 +32,5 @@ class Stack:
         return self.stack[self.top]
     
     def size(self):
+
         return self.top+1
